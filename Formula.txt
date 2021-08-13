@@ -1,0 +1,3 @@
+=IF(B235<>"",UPPER(TEXTJOIN(CHAR(10),TRUE,INDIRECT("'"&"Form Responses 1"&"'"&"!M"&ROW(N164)&":"&"V"&ROW(W164)))),"")
+
+=TEXTJOIN(CHAR(10),TRUE,INDIRECT("'"&"Form Responses 1"&"'"&"!M"&ROW(N164)&":"&"V"&ROW(W164)))
